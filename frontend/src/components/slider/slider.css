@@ -1,0 +1,47 @@
+/* src/App.css */
+.image-slider {
+    margin: 20px auto;
+    width: 30%;
+    min-width: 400px;
+    display: inline-block;
+    z-index: 0;
+}
+
+.arrow {
+    background-color: rgba(255, 240, 158, 0.2);
+    border: none;
+    border-radius: 50%;
+    width: 40px; 
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1000;
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%); 
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.product-image {
+    width: 100%;
+}
+
+.product-image > img {
+    border: none;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.slick-slide div {
+    outline: none; 
+}
